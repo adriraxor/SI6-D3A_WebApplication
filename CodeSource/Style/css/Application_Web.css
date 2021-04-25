@@ -1,0 +1,77 @@
+body
+{
+	scroll-behavior: smooth;
+	font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav{
+  background: #959595;
+
+}
+
+/* Menu */
+#menu{
+	height: 100%;
+  padding-top: 20px;
+  border: 1px solid #D5D5D5;
+  border-top: none;
+}
+.list-group{
+  font-weight: normal;
+  color: #999999;
+  border-top: 1px solid #D5D5D5;
+  margin-top: 20px;
+  padding-top:20px;
+}
+.item{
+	margin-bottom: 20px;
+}
+/* fin menu */
+
+
+
+/* Corps */
+#C-Salle{
+  border: 1px solid #D5D5D5;
+	border-top: none;
+}
+
+#C-Salle h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* CreateSalle */
+form h4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Create-Salle{
+  padding-right: 15px;
+}
+/* fin CreateSalle */
+
+/* Généralité formulaire */
+.form-control:valid{
+  box-shadow: 0 0 2px 1px ;
+}
+
+.form-control:invalid{
+  box-shadow: 0 0 2px 1px ;
+}
+.form-group span::before
+{
+  content: attr(data-placeholder);
+  top: 50%;
+  left: 5%;
+  color: black;
+  transform: translateY(-50%);
+  transition: .5s;
+}
+
+#hidden{
+	display: none;
+}
+/* Fin généralité formulaire */
+
+/* fin Corps */
